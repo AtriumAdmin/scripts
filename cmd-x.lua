@@ -3568,7 +3568,7 @@ for i,_ in pairs(CMDS.commands) do
 end
 
 if KeepCMDXOn and syn.queue_on_teleport then
-	syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/atrium/atrium/master/Source"))()')
+	syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/AtriumAdmin/scripts/main/cmd-x.lua"))()')
 end
 
 rejoining = false
@@ -7881,7 +7881,7 @@ end
 
 function useCommand.reload()
 	opx("-","Reloading atrium...")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/atrium/atrium/master/Source", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AtriumAdmin/scripts/main/cmd-x.lua", true))()
 end
 
 function useCommand.partesp()
@@ -8721,7 +8721,7 @@ function useCommand.runafter()
 		opx("-","atrium will now run after rejoin")
 		KeepCMDXOn = true
 		if KeepCMDXOn and syn.queue_on_teleport then
-			syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/atrium/atrium/master/Source"))()')
+			syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/AtriumAdmin/scripts/main/cmd-x.lua"))()')
 		end
 		updatesaves()
 	elseif arguments[2] == "off" then
@@ -15170,7 +15170,7 @@ function useCommand.rejoinexecute()
 	syn.queue_on_teleport([[
 		game:GetService('ReplicatedFirst'):RemoveDefaultLoadingScreen()
 		repeat wait(.1) until game:GetService('Players').LocalPlayer
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/atrium/atrium/master/Source", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AtriumAdmin/scripts/main/cmd-x.lua", true))()
 	]])
 	opx("-","Rejoining game")
 	game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, cmdp)
@@ -15728,7 +15728,7 @@ function useCommand.rejoinrefreshexecute()
 			end)
 			playeradded:Disconnect()
 		end)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/atrium/atrium/master/Source", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AtriumAdmin/scripts/main/cmd-x.lua", true))()
 	]], c.X, c.Y, c.Z))
 	opx("-","Rejoining game")
 	game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, cmdp)
