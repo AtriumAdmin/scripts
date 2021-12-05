@@ -1,6 +1,3 @@
--- Made by atrium --
-
-
 FakeLimbs = {["Head"] = nil,["Torso1"] = nil,["Torso2"] = nil,["Right Arm"] = nil,["Left Arm"] = nil,["Right Leg"] = nil,["Left Leg"] = nil}
 Accessorys = {}
 
