@@ -1,3 +1,25 @@
+--[[ {<HATS NEEDED>} 
+https://www.roblox.com/catalog/617605556/Medieval-Hood-of-Mystery
+
+https://www.roblox.com/catalog/6470135113/Fan-Hand-Sign-Why-Dont-We-WDW
+
+https://www.roblox.com/catalog/48474313/Red-Roblox-Cap
+
+https://www.roblox.com/catalog/4391384843/International-Fedora-Russia
+
+https://www.roblox.com/catalog/48474294/ROBLOX-Girl-Hair
+
+https://www.roblox.com/catalog/62724852/Chestnut-Bun
+
+https://www.roblox.com/catalog/451220849/Lavender-Updo
+
+https://www.roblox.com/catalog/63690008/Pal-Hair
+
+https://www.roblox.com/catalog/62234425/Brown-Hair
+                   ]]
+
+
+
 _oNQcW8LagavjQzTX, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
