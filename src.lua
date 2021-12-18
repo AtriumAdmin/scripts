@@ -3690,7 +3690,7 @@ BackgroundExploits = {
 		PlaceIds = {1224212277},
 		PremiumOnly = true,
 		WaitDuration = 0,
-		Loadstring = "https://raw.githubusercontent.com/Sumithebestak/MadChicken/main/README.md",
+		Loadstring = "https://pastebin.com/raw/hr3fgq8y",
 	},
 	myrestaurant = {
 		Name = "My Restaurant",
