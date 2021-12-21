@@ -1,5 +1,3 @@
-
--- https://web.roblox.com/catalog/4645440842/Plain-White-Cat-Tail (Optional)
 local NotificationBindable = Instance.new("BindableFunction")
 local Msgreq = function(Title,Text,Duration,Button1Text,Button2Text)
 	game.StarterGui:SetCore("SendNotification", {
@@ -13,7 +11,7 @@ local Msgreq = function(Title,Text,Duration,Button1Text,Button2Text)
 	})
 end
 
-Msgreq("Nutron Neko Loading,"Loading, please wait while it loads",5,nil)
+Msgreq("Nutron","Loading, please wait while it loads",5,nil)
 local SongID = "http://www.roblox.com/asset/?id=198665867"
 Bypass = "death"
 if not Bypass then Bypass = "limbs" end
@@ -1170,7 +1168,7 @@ local Anim = "Idle"
 
 
 Humanoid.WalkSpeed = 20
-Msgreq("FE Neko Anims V1.6","FE Neko Animations Loaded, have fun - Made by Creo",5,nil)
+Msgreq("Loaded",5,nil)
 while true do
 	swait()
 	hitfloor = rayCast(RootPart.Position, CFrame.new(RootPart.Position, RootPart.Position - Vector3.new(0, 0.5, 0)).lookVector, 4, CloneChar)
