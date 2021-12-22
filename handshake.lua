@@ -1,4 +1,4 @@
---made by MyWorld#4430
+
 local petGui = Instance.new("ScreenGui")
 local drag = Instance.new("Frame")
 local label = Instance.new("TextLabel")
